@@ -45,7 +45,7 @@ def greet(name):
 
 @app.get("/contact")
 def contact_api():
-    print("Contact API endpoint accessed.")
+    print("Contact API endpoint accessed")
     user = {"name": "peter", "age": 35}  # dictionary
     return user
 
